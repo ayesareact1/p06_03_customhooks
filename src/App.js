@@ -1,7 +1,11 @@
+import DashboardProducts from "./pages/DashboardProducts";
+import DashboardVendors from "./pages/DashboardVendors";
+
 function App() {
   return (
-    <div>
-      
+    <div className="container">
+      <DashboardProducts />
+      <DashboardVendors />
     </div>
   );
 }
